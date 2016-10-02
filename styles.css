@@ -1,0 +1,41 @@
+body{
+    background-color: #111;
+
+    color: #fff;
+}
+
+#header {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35%;
+
+    opacity: 0;
+}
+
+h1 {
+    font-family: Encode Sans Wide;
+    font-size: 54pt;
+    font-weight: 100;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+h2{
+    font-family: Encode Sans Wide;
+    font-size: 24pt;
+    font-weight: 100;
+
+    text-align: center;
+
+    margin: .3em;
+}
+
+.bold{
+    font-weight: 500;
+}
