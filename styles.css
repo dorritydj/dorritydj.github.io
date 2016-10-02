@@ -7,6 +7,12 @@ body{
 @font-face {
     font-family: Encode Sans Wide Regular;
     src: url('fonts/EncodeSansWide-Regular.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Encode Sans Wide Bolded;
+    src: url('fonts/EncodeSansWide-Bold.ttf');
 }
 
 #header {
@@ -22,7 +28,7 @@ body{
 }
 
 h1 {
-    font-family: Encode Sans Wide Regular, sans-serif;
+    font-family: Encode Sans Wide Regular;
     font-size: 54pt;
     font-weight: 100;
 
@@ -32,7 +38,7 @@ h1 {
 }
 
 h2{
-    font-family: Encode Sans Wide Regular, sans-serif;
+    font-family: Encode Sans Wide Regular;
     font-size: 24pt;
     font-weight: 100;
 
@@ -42,5 +48,5 @@ h2{
 }
 
 .bold{
-    font-weight: 500;
+    font-family: Encode Sans Wide Bolded;
 }
