@@ -10,11 +10,6 @@ body{
     font-weight: 100;
 }
 
-@font-face {
-    font-family: Encode Sans Wide Bolded;
-    src: url('fonts/EncodeSansWide-Bold.ttf');
-}
-
 #header {
     bottom: 0;
     left: 0;
@@ -45,8 +40,4 @@ h2{
     text-align: center;
 
     margin: .3em;
-}
-
-.bold{
-    font-family: Encode Sans Wide Bolded;
 }
