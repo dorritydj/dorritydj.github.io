@@ -5,8 +5,8 @@ body{
 }
 
 @font-face {
-    font-family:"Encode Sans Wide Regular";
-    src: url(fonts/EncodeSansWide-Regular.tff);
+    font-family: Encode Sans Wide Regular;
+    src: url('fonts/EncodeSansWide-Regular.ttf');
 }
 
 #header {
@@ -22,7 +22,7 @@ body{
 }
 
 h1 {
-    font-family: "Encode Sans Wide Regular";
+    font-family: Encode Sans Wide Regular, sans-serif;
     font-size: 54pt;
     font-weight: 100;
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2{
-    font-family: "Encode Sans Wide Regular";
+    font-family: Encode Sans Wide Regular, sans-serif;
     font-size: 24pt;
     font-weight: 100;
 
