@@ -94,6 +94,10 @@ nav li a:hover {
     background-color: #111111;
 }
 
+.active {
+    background-color: #111111;
+}
+
 /** Footer **/
 footer{
     height: 5%;
