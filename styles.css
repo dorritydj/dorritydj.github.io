@@ -69,14 +69,14 @@ nav li {
     display: inline-block;
 
     font-family: Encode Sans Wide Regular;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 32px;
+    padding: 28px;
     text-decoration: none;
 }
 
