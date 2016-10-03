@@ -2,7 +2,6 @@ body{
     background-color: #111;
 
     color: #fff;
-    height: 2000px;
 }
 
 @font-face {
@@ -11,7 +10,7 @@ body{
     font-weight: 100;
 }
 
-#header {
+header {
     bottom: 0;
     left: 0;
     margin: auto;
@@ -36,6 +35,16 @@ h1 {
 h2{
     font-family: Encode Sans Wide Regular;
     font-size: 24pt;
+    font-weight: 100;
+
+    text-align: center;
+
+    margin: .3em;
+}
+
+h3{
+    font-family: Encode Sans Wide Regular;
+    font-size: 20pt;
     font-weight: 100;
 
     text-align: center;
@@ -78,8 +87,18 @@ nav li a {
     text-align: center;
     padding: 28px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 nav li a:hover {
     background-color: #111111;
+}
+
+/** Footer **/
+footer{
+    height: 5%;
+    position: fixed;
+    bottom:0%;
+    width:100%;
+    opacity: 1;
 }
