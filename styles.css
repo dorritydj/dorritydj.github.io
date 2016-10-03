@@ -11,6 +11,7 @@ body{
     font-weight: 100;
 }
 
+/** Header **/
 #header {
     bottom: 0;
     left: 0;
@@ -82,4 +83,18 @@ nav li a {
 
 nav li a:hover {
     background-color: #111111;
+}
+
+/** About **/
+#about{
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    color: #ffffff;
+
+    height: 0%;
 }
