@@ -42,9 +42,23 @@ h2{
     margin: .3em;
 }
 
-h3{
+h3 {
     font-family: Encode Sans Wide Regular;
-    font-size: 20pt;
+    font-size: 18pt;
+    font-weight: 100;
+
+    text-align: center;
+
+    margin: .3em;
+}
+
+a {
+    color: white;
+}
+
+p{
+    font-family: Encode Sans Wide Regular;
+    /*font-size: 20pt;*/
     font-weight: 100;
 
     text-align: center;
@@ -91,11 +105,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #111111;
+    background-color: #111;
 }
 
 .active {
-    background-color: #111111;
+    background-color: #111;
 }
 
 /** Footer **/
@@ -105,4 +119,68 @@ footer{
     bottom:0%;
     width:100%;
     opacity: 1;
+}
+
+#aboutinfo, #contactinfo, #projectsinfo, #socialinfo{
+    opacity: 0;
+}
+
+#aboutinfo{
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35%;
+}
+
+#contactinfo {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35%;
+}
+
+#projectsinfo {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35%;
+}
+
+#socialinfo {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35%;
+
+    text-align: center;
+}
+
+#facebook > a > img, #linkedin > a > img, #instagram > a > img{
+    height: 100px;
+    width: 100px;
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#socialinfo > h2 {
+    margin-top: 2%;
+}
+
+.horizontal-line{
+    border: 1px solid white;
+    height: 0px;
+    width: 100px;
 }
