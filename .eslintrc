@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "@dorritydj/eslint-config",
+    "plugin:vue/essential",
+    "@vue/prettier",
+    "@vue/typescript"
+  ]
+}
