@@ -1,6 +1,6 @@
 <template>
-  <div class="social">
-    social works
+  <div class="contact">
+    contact works
   </div>
 </template>
 

@@ -15,7 +15,6 @@ export default class Home extends Vue {}
 <style lang="scss" scoped>
 .home {
     margin: 0 auto;
-    padding-top: 150px;
     display: flex;
     justify-content: center;
     flex-direction: column;

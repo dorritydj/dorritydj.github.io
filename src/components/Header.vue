@@ -25,6 +25,7 @@ export default class Header extends Vue {}
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 150px;
 
     .header-item {
         display: inline-block;
