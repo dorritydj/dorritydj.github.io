@@ -12,6 +12,8 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import { Github } from '@/services/Github';
+
 @Component({
     components: {
         Header,
@@ -21,6 +23,8 @@ import Footer from '@/components/Footer.vue';
 export default class App extends Vue {
     constructor() {
         super();
+
+        const git = Github.getInstance();
     }
 }
 </script>
@@ -41,6 +45,7 @@ body {
     color: #ffffff;
     text-align: center;
     font-family: Encode Sans Wide Regular;
+    width: 100vw;
 }
 
 .fade-enter-active,
